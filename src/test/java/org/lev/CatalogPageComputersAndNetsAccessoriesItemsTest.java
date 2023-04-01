@@ -25,8 +25,8 @@ public class CatalogPageComputersAndNetsAccessoriesItemsTest extends BasicPageTe
     public void clickToComputersAndNetsCategory() {
         basicPage.clickToCatalogLink();
         catalogPage.clickComputersAndNetsCategory();
-        scrollDown333();
         catalogPageComputersAndNetsCategory.openAccessoriesFromComputersAndNets();
+        scrollDown333();
     }
 
     @Test

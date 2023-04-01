@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/2PROJECT-IT/md-homework9">
+        <classes>
+            <class name="org.lev.CatalogPageComputersAndNetsAccessoriesItemsTest">
+                <methods>
+                    <include name="testVideocardSlotTitle"/>
+                    <include name="testVideocardSlotProductAmountAndPrice"/>
+                    <include name="testMotherboardSlotTitle"/>
+                    <include name="testMotherboardSlotProductAmountAndPrice"/>
+                    <include name="testSSDSlotTitle"/>
+                    <include name="testSSDSlotProductAmountAndPrice"/>
+                    <include name="testHDDSlotTitle"/>
+                    <include name="testHDDSlotProductAmountAndPrice"/>
+                    <include name="testChassisSlotTitle"/>
+                    <include name="testChassisSlotProductAmountAndPrice"/>
+                    <include name="testPowersupplySlotTitle"/>
+                    <include name="testPowersupplySlotProductAmountAndPrice"/>
+                    <include name="testSoundcardSlotTitle"/>
+                    <include name="testSoundcardSlotProductAmountAndPrice"/>
+                    <include name="testNetworkAdapterSlotTitle"/>
+                    <include name="testNetworkAdapterSlotProductAmountAndPrice"/>
+                    <include name="testOpticalSlotTitle"/>
+                    <include name="testOpticalSlotProductAmountAndPrice"/>
+                </methods>
+            </class>
+            <class name="org.lev.CatalogPageComputersAndNetsCategoryTest">
+                <methods>
+                    <include name="testListOfComputersAndNetsColumn"/>
+                </methods>
+            </class>
+            <class name="org.lev.CatalogPageTest">
+                <methods>
+                    <include name="testCatalogItems"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,6 +1,8 @@
 package org.lev;
 
 import com.codeborne.selenide.ElementsCollection;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -20,6 +22,7 @@ import static org.lev.CatalogPageConstant.PRINTING_AND_DESIGN_EQUIPMENT;
 import static org.lev.NavigationHelper.scrollDown333;
 
 public class CatalogPageComputersAndNetsCategoryTest extends BasicPageTest {
+
     CatalogPage catalogPage = new CatalogPage();
     CatalogPageComputersAndNetsCategory catalogPageComputersAndNetsCategory = new CatalogPageComputersAndNetsCategory();
 
@@ -45,5 +48,7 @@ public class CatalogPageComputersAndNetsCategoryTest extends BasicPageTest {
         listOfComputersAndNetsColumn.get(8).shouldHave(text(ACCESSORIES_FOR_LAPTOPS_AND_COMPUTERS));
         listOfComputersAndNetsColumn.get(9).shouldHave(text(POWER_SUPPLY));
         listOfComputersAndNetsColumn.get(10).shouldHave(text(GAMES_AND_SOFTWARE));
+
+
     }
 }

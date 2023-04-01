@@ -1,0 +1,86 @@
+2023-04-01 22:08:21.335 INFO [main] [org.testng.log4testng.Logger.info(Logger.java:112)] - [TestNG] Running:
+  C:\Users\user\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+2023-04-01 22:08:21.405 INFO [main] [org.lev.BasicPage.openBasePage(BasicPage.java:17)] - method: openBasePage runs
+2023-04-01 22:08:21.472 INFO [main] [com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:154)] - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2023-04-01 22:08:21.489 INFO [main] [com.codeborne.selenide.impl.FileHelper.ensureFolderExists(FileHelper.java:46)] - Creating folder: C:\2PROJECT-IT\md-homework9\build\downloads\1680376101485_18112_1
+2023-04-01 22:08:23.266 INFO [main] [io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion(WebDriverManager.java:1238)] - Using chromedriver 111.0.5563.64 (resolved driver for Chrome 111)
+2023-04-01 22:08:23.291 INFO [main] [io.github.bonigarcia.wdm.WebDriverManager.exportDriver(WebDriverManager.java:1291)] - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\111.0.5563.64\chromedriver.exe
+2023-04-01 22:08:23.431 INFO [main] [com.codeborne.selenide.webdriver.SelenideNettyClientFactory.createClient(SelenideNettyClientFactory.java:25)] - Changed readTimeout from PT3M to PT1M30S
+2023-04-01 22:08:25.489 INFO [main] [com.codeborne.selenide.webdriver.SelenideNettyClientFactory.createClient(SelenideNettyClientFactory.java:25)] - Changed readTimeout from PT3M to PT1M30S
+2023-04-01 22:08:25.504 INFO [main] [com.codeborne.selenide.webdriver.SelenideNettyClientFactory.createClient(SelenideNettyClientFactory.java:25)] - Changed readTimeout from PT3M to PT1M30S
+2023-04-01 22:08:25.616 INFO [main] [com.codeborne.selenide.webdriver.WebDriverFactory.logBrowserVersion(WebDriverFactory.java:148)] - BrowserName=chrome Version=111.0.5563.147 Platform=WINDOWS
+2023-04-01 22:08:25.616 INFO [main] [com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:75)] - Selenide v. 6.12.4
+2023-04-01 22:08:25.617 INFO [main] [com.codeborne.selenide.webdriver.WebDriverFactory.logSeleniumInfo(WebDriverFactory.java:142)] - Selenium WebDriver v. 4.8.1 build revision: 8ebccac989
+2023-04-01 22:08:25.618 INFO [main] [com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:78)] - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (53e9c0ee0ab81462bc5610f2c45a3f48)
+2023-04-01 22:08:25.624 INFO [main] [com.codeborne.selenide.drivercommands.DisposablesRegistry.register(DisposablesRegistry.java:30)] - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on WINDOWS (53e9c0ee0ab81462bc5610f2c45a3f48),proxy=null,downloadsFolder=C:\2PROJECT-IT\md-homework9\build\downloads\1680376101485_18112_1] in 1 [size=1]
+2023-04-01 22:08:25.625 INFO [main] [com.codeborne.selenide.drivercommands.DisposablesRegistry.register(DisposablesRegistry.java:32)] - Add shutdown hook in 1 [size=1]
+2023-04-01 22:08:27.631 INFO [main] [org.lev.BasicPage.clickToCatalogLink(BasicPage.java:23)] - method: clickToCatalogLink runs
+2023-04-01 22:08:28.817 INFO [main] [org.lev.CatalogPage.clickComputersAndNetsCategory(CatalogPage.java:25)] - method: clickComputersAndNetsCategory runs
+2023-04-01 22:08:28.948 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.openAccessoriesFromComputersAndNets(CatalogPageComputersAndNetsCategory.java:67)] - method: openAccessoriesFromComputersAndNets runs
+2023-04-01 22:08:29.526 INFO [main] [org.lev.NavigationHelper.scrollDown333(NavigationHelper.java:12)] - method: scrollDown333 runs
+2023-04-01 22:08:29.557 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getChassisProductsAmountAndPriceElement(CatalogPageComputersAndNetsCategory.java:119)] - method: getChassisProductsAmountAndPriceElement runs
+2023-04-01 22:08:29.615 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getChassisTitleElement(CatalogPageComputersAndNetsCategory.java:114)] - method: getChassisTitleElement runs
+2023-04-01 22:08:29.674 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getHDDProductsAmountAndPriceElement(CatalogPageComputersAndNetsCategory.java:109)] - method: getHDDProductsAmountAndPriceElement runs
+2023-04-01 22:08:29.706 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getHDDTitleElement(CatalogPageComputersAndNetsCategory.java:104)] - method: getHDDTitleElement runs
+2023-04-01 22:08:29.738 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getMotherboardProductsAmountAndPriceElement(CatalogPageComputersAndNetsCategory.java:89)] - method: getMotherboardProductsAmountAndPriceElement runs
+2023-04-01 22:08:29.762 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getMotherboardTitleElement(CatalogPageComputersAndNetsCategory.java:84)] - method: getMotherboardTitleElement runs
+2023-04-01 22:08:29.792 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getNetworkAdapterProductsAmountAndPriceElement(CatalogPageComputersAndNetsCategory.java:149)] - method: getNetworkAdapterProductsAmountAndPriceElement runs
+2023-04-01 22:08:29.818 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getNetworkAdapterTitleElement(CatalogPageComputersAndNetsCategory.java:144)] - method: getNetworkAdapterTitleElement runs
+2023-04-01 22:08:29.846 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getOpticalProductsAmountAndPriceElement(CatalogPageComputersAndNetsCategory.java:159)] - method: getOpticalProductsAmountAndPriceElement runs
+2023-04-01 22:08:29.878 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getOpticalTitleElement(CatalogPageComputersAndNetsCategory.java:154)] - method: getOpticalTitleElement runs
+2023-04-01 22:08:29.911 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getPowersupplyProductsAmountAndPriceElement(CatalogPageComputersAndNetsCategory.java:129)] - method: getPowersupplyProductsAmountAndPriceElement runs
+2023-04-01 22:08:29.938 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getPowersupplyTitleElement(CatalogPageComputersAndNetsCategory.java:124)] - method: getPowersupplyTitleElement runs
+2023-04-01 22:08:29.966 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getSSDProductsAmountAndPriceElement(CatalogPageComputersAndNetsCategory.java:99)] - method: getSSDProductsAmountAndPriceElement runs
+2023-04-01 22:08:29.989 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getSSDTitleElement(CatalogPageComputersAndNetsCategory.java:94)] - method: getSSDTitleElement runs
+2023-04-01 22:08:30.016 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getSoundcardProductsAmountAndPriceElement(CatalogPageComputersAndNetsCategory.java:139)] - method: getSoundcardProductsAmountAndPriceElement runs
+2023-04-01 22:08:30.040 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getSoundcardTitleElement(CatalogPageComputersAndNetsCategory.java:134)] - method: getSoundcardTitleElement runs
+2023-04-01 22:08:30.073 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getVideocardProductsAmountAndPriceElement(CatalogPageComputersAndNetsCategory.java:79)] - method: getVideocardProductsAmountAndPriceElement runs
+2023-04-01 22:08:30.100 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getVideocardTitleElement(CatalogPageComputersAndNetsCategory.java:74)] - method: getVideocardTitleElement runs
+2023-04-01 22:08:30.310 INFO [main] [org.lev.BasicPage.openBasePage(BasicPage.java:17)] - method: openBasePage runs
+2023-04-01 22:08:30.498 INFO [main] [com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:168)] - Webdriver has been closed meanwhile. Let's re-create it.
+2023-04-01 22:08:30.499 INFO [main] [com.codeborne.selenide.impl.FileHelper.deleteFolderIfEmpty(FileHelper.java:82)] - Deleted empty folder: C:\2PROJECT-IT\md-homework9\build\downloads\1680376101485_18112_1
+2023-04-01 22:08:30.500 INFO [main] [com.codeborne.selenide.drivercommands.CloseDriverCommand.close(CloseDriverCommand.java:38)] - Close webdriver: 1 -> ChromeDriver: chrome on WINDOWS (53e9c0ee0ab81462bc5610f2c45a3f48)...
+2023-04-01 22:08:31.034 INFO [main] [com.codeborne.selenide.drivercommands.CloseDriverCommand.close(CloseDriverCommand.java:40)] - Closed webdriver 1 in 534 ms
+2023-04-01 22:08:31.035 INFO [main] [com.codeborne.selenide.drivercommands.DisposablesRegistry.unregister(DisposablesRegistry.java:40)] - Unregister WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on WINDOWS (null),proxy=null,downloadsFolder=C:\2PROJECT-IT\md-homework9\build\downloads\1680376101485_18112_1] in 1 [size=0]
+2023-04-01 22:08:31.037 INFO [main] [com.codeborne.selenide.impl.FileHelper.ensureFolderExists(FileHelper.java:46)] - Creating folder: C:\2PROJECT-IT\md-homework9\build\downloads\1680376111036_18112_1
+2023-04-01 22:08:31.050 INFO [main] [com.codeborne.selenide.webdriver.SelenideNettyClientFactory.createClient(SelenideNettyClientFactory.java:25)] - Changed readTimeout from PT3M to PT1M30S
+2023-04-01 22:08:32.413 INFO [main] [com.codeborne.selenide.webdriver.SelenideNettyClientFactory.createClient(SelenideNettyClientFactory.java:25)] - Changed readTimeout from PT3M to PT1M30S
+2023-04-01 22:08:32.420 INFO [main] [com.codeborne.selenide.webdriver.SelenideNettyClientFactory.createClient(SelenideNettyClientFactory.java:25)] - Changed readTimeout from PT3M to PT1M30S
+2023-04-01 22:08:32.437 INFO [main] [com.codeborne.selenide.webdriver.WebDriverFactory.logBrowserVersion(WebDriverFactory.java:148)] - BrowserName=chrome Version=111.0.5563.147 Platform=WINDOWS
+2023-04-01 22:08:32.438 INFO [main] [com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:75)] - Selenide v. 6.12.4
+2023-04-01 22:08:32.438 INFO [main] [com.codeborne.selenide.webdriver.WebDriverFactory.logSeleniumInfo(WebDriverFactory.java:142)] - Selenium WebDriver v. 4.8.1 build revision: 8ebccac989
+2023-04-01 22:08:32.438 INFO [main] [com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:78)] - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (59653c26d32596dc69f4895a9b3e0acc)
+2023-04-01 22:08:32.438 INFO [main] [com.codeborne.selenide.drivercommands.DisposablesRegistry.register(DisposablesRegistry.java:30)] - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on WINDOWS (59653c26d32596dc69f4895a9b3e0acc),proxy=null,downloadsFolder=C:\2PROJECT-IT\md-homework9\build\downloads\1680376111036_18112_1] in 1 [size=1]
+2023-04-01 22:08:35.243 INFO [main] [org.lev.BasicPage.clickToCatalogLink(BasicPage.java:23)] - method: clickToCatalogLink runs
+2023-04-01 22:08:36.656 INFO [main] [org.lev.CatalogPage.clickComputersAndNetsCategory(CatalogPage.java:25)] - method: clickComputersAndNetsCategory runs
+2023-04-01 22:08:36.873 INFO [main] [org.lev.NavigationHelper.scrollDown333(NavigationHelper.java:12)] - method: scrollDown333 runs
+2023-04-01 22:08:36.884 INFO [main] [org.lev.CatalogPageComputersAndNetsCategory.getListOfComputersAndNetsColumn(CatalogPageComputersAndNetsCategory.java:62)] - method: getListOfComputersAndNetsColumn runs
+2023-04-01 22:08:38.022 INFO [main] [org.lev.BasicPage.openBasePage(BasicPage.java:17)] - method: openBasePage runs
+2023-04-01 22:08:38.202 INFO [main] [com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:168)] - Webdriver has been closed meanwhile. Let's re-create it.
+2023-04-01 22:08:38.204 INFO [main] [com.codeborne.selenide.impl.FileHelper.deleteFolderIfEmpty(FileHelper.java:82)] - Deleted empty folder: C:\2PROJECT-IT\md-homework9\build\downloads\1680376111036_18112_1
+2023-04-01 22:08:38.204 INFO [main] [com.codeborne.selenide.drivercommands.CloseDriverCommand.close(CloseDriverCommand.java:38)] - Close webdriver: 1 -> ChromeDriver: chrome on WINDOWS (59653c26d32596dc69f4895a9b3e0acc)...
+2023-04-01 22:08:38.746 INFO [main] [com.codeborne.selenide.drivercommands.CloseDriverCommand.close(CloseDriverCommand.java:40)] - Closed webdriver 1 in 541 ms
+2023-04-01 22:08:38.746 INFO [main] [com.codeborne.selenide.drivercommands.DisposablesRegistry.unregister(DisposablesRegistry.java:40)] - Unregister WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on WINDOWS (null),proxy=null,downloadsFolder=C:\2PROJECT-IT\md-homework9\build\downloads\1680376111036_18112_1] in 1 [size=0]
+2023-04-01 22:08:38.748 INFO [main] [com.codeborne.selenide.impl.FileHelper.ensureFolderExists(FileHelper.java:46)] - Creating folder: C:\2PROJECT-IT\md-homework9\build\downloads\1680376118747_18112_1
+2023-04-01 22:08:38.759 INFO [main] [com.codeborne.selenide.webdriver.SelenideNettyClientFactory.createClient(SelenideNettyClientFactory.java:25)] - Changed readTimeout from PT3M to PT1M30S
+2023-04-01 22:08:40.033 INFO [main] [com.codeborne.selenide.webdriver.SelenideNettyClientFactory.createClient(SelenideNettyClientFactory.java:25)] - Changed readTimeout from PT3M to PT1M30S
+2023-04-01 22:08:40.044 INFO [main] [com.codeborne.selenide.webdriver.SelenideNettyClientFactory.createClient(SelenideNettyClientFactory.java:25)] - Changed readTimeout from PT3M to PT1M30S
+2023-04-01 22:08:40.062 INFO [main] [com.codeborne.selenide.webdriver.WebDriverFactory.logBrowserVersion(WebDriverFactory.java:148)] - BrowserName=chrome Version=111.0.5563.147 Platform=WINDOWS
+2023-04-01 22:08:40.063 INFO [main] [com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:75)] - Selenide v. 6.12.4
+2023-04-01 22:08:40.063 INFO [main] [com.codeborne.selenide.webdriver.WebDriverFactory.logSeleniumInfo(WebDriverFactory.java:142)] - Selenium WebDriver v. 4.8.1 build revision: 8ebccac989
+2023-04-01 22:08:40.063 INFO [main] [com.codeborne.selenide.drivercommands.CreateDriverCommand.lambda$createDriver$0(CreateDriverCommand.java:78)] - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (00e13155d7030ae5a8c9ab439c5e3a98)
+2023-04-01 22:08:40.064 INFO [main] [com.codeborne.selenide.drivercommands.DisposablesRegistry.register(DisposablesRegistry.java:30)] - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on WINDOWS (00e13155d7030ae5a8c9ab439c5e3a98),proxy=null,downloadsFolder=C:\2PROJECT-IT\md-homework9\build\downloads\1680376118747_18112_1] in 1 [size=1]
+2023-04-01 22:08:42.386 INFO [main] [org.lev.BasicPage.clickToCatalogLink(BasicPage.java:23)] - method: clickToCatalogLink runs
+2023-04-01 22:08:43.773 INFO [main] [org.lev.CatalogPage.getCatalogItemList(CatalogPage.java:20)] - method: getCatalogItemList runs
+2023-04-01 22:08:43.813 INFO [main] [org.lev.CatalogPage.getCatalogItemList(CatalogPage.java:20)] - method: getCatalogItemList runs
+2023-04-01 22:08:43.905 INFO [main] [org.lev.CatalogPage.getCatalogItemList(CatalogPage.java:20)] - method: getCatalogItemList runs
+2023-04-01 22:08:43.959 INFO [main] [org.lev.CatalogPage.getCatalogItemList(CatalogPage.java:20)] - method: getCatalogItemList runs
+2023-04-01 22:08:44.003 INFO [main] [org.lev.CatalogPage.getCatalogItemList(CatalogPage.java:20)] - method: getCatalogItemList runs
+2023-04-01 22:08:44.046 INFO [main] [org.lev.CatalogPage.getCatalogItemList(CatalogPage.java:20)] - method: getCatalogItemList runs
+2023-04-01 22:08:44.090 INFO [main] [org.lev.CatalogPage.getCatalogItemList(CatalogPage.java:20)] - method: getCatalogItemList runs
+2023-04-01 22:08:44.141 INFO [main] [org.lev.CatalogPage.getCatalogItemList(CatalogPage.java:20)] - method: getCatalogItemList runs
+2023-04-01 22:08:44.191 INFO [main] [org.lev.CatalogPage.getCatalogItemList(CatalogPage.java:20)] - method: getCatalogItemList runs
+2023-04-01 22:08:44.241 INFO [main] [org.lev.CatalogPage.getCatalogItemList(CatalogPage.java:20)] - method: getCatalogItemList runs
+2023-04-01 22:08:44.286 INFO [main] [org.lev.CatalogPage.getCatalogItemList(CatalogPage.java:20)] - method: getCatalogItemList runs
+2023-04-01 22:08:44.524 INFO [Thread-2] [com.codeborne.selenide.drivercommands.DisposablesRegistry$SelenideCleanupShutdownHook.run(DisposablesRegistry.java:66)] - Run cleanup: size=1
