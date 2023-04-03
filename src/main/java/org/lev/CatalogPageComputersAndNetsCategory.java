@@ -4,8 +4,7 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import lombok.Getter;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.log4j.Logger;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.$$x;
@@ -15,7 +14,7 @@ import static com.codeborne.selenide.Selenide.$x;
 @Getter
 public class CatalogPageComputersAndNetsCategory {
 
-    Logger log = LoggerFactory.getLogger(CatalogPageComputersAndNetsCategory.class);
+    Logger log = Logger.getLogger(CatalogPageComputersAndNetsCategory.class);
 
 
     private static final String COMPUTERS_AND_NETS_ITEMS =

@@ -1,15 +1,14 @@
 package org.lev;
 
 import com.codeborne.selenide.ElementsCollection;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.log4j.Logger;
 
 import static com.codeborne.selenide.Selenide.$$x;
 import static com.codeborne.selenide.Selenide.$x;
 
 public class CatalogPage {
 
-    Logger log = LoggerFactory.getLogger(CatalogPage.class);
+    Logger log = Logger.getLogger(CatalogPage.class);
 
 
     private static final String CATALOG_ITEM = "//li[@class='catalog-navigation-classifier__item ']";
